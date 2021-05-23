@@ -21,7 +21,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Staking',
+    label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
