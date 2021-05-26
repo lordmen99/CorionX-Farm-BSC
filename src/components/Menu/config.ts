@@ -25,6 +25,11 @@ const config: MenuEntry[] = [
     icon: 'FarmIcon',
     href: '/farms',
   },
+  {
+     label: 'Partnership',
+     icon: 'NftIcon',
+     href: 'https://forms.gle/hHs52znCgrotJUTNA',
+   },
   // {
   //  label: 'poolss',
   //  icon: 'PoolIcon',
