@@ -62,6 +62,14 @@ const config: MenuEntry[] = [
         label: 'Bscscan',
         href: 'https://bscscan.com/token/0x141383CDB8158982fB3469C3e49cC82F8026d968',
       },
+      {
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/corionx/',
+      },
+      {
+        label: 'CoinGecko',
+        href: 'https://www.coingecko.com/en/coins/corionx',
+      },
     ],
   },
   //  {
