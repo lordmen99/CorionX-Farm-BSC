@@ -30,6 +30,11 @@ const config: MenuEntry[] = [
      icon: 'NftIcon',
      href: 'https://forms.gle/hHs52znCgrotJUTNA',
    },
+  {
+     label: 'Bridge',
+     icon: 'SunIcon',
+     href: 'https://bscbridge.corion.io/',
+   },
   // {
   //  label: 'poolss',
   //  icon: 'PoolIcon',
@@ -69,6 +74,10 @@ const config: MenuEntry[] = [
       {
         label: 'CoinGecko',
         href: 'https://www.coingecko.com/en/coins/corionx',
+      },
+      {
+        label: 'Webpage',
+        href: 'https://corion.io/',
       },
     ],
   },
