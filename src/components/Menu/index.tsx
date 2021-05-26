@@ -25,7 +25,7 @@ const Menu = (props) => {
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
-      priceLink="https://swap.oseeafoundation.org/#/swap"
+      priceLink="https://coinmarketcap.com/currencies/corionx"
       {...props}
     />
   )
