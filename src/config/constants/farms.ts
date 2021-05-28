@@ -34,6 +34,38 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
   },
+  {
+    pid: 2,
+    risk: 5,
+    lpSymbol: 'CORX ',
+    lpAddresses: {
+      97: '',
+      56: '0x141383cdb8158982fb3469c3e49cc82f8026d968',
+    },
+    tokenSymbol: 'BNB',
+    tokenAddresses: {
+      97: '',
+      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 3,
+    risk: 5,
+    lpSymbol: 'CORX-BUSD LP',
+    lpAddresses: {
+      97: '',
+      56: '0x05a6071e03c012b8d20a9bbef1d711e465ac0d7f',
+    },
+    tokenSymbol: 'CORX',
+    tokenAddresses: {
+      97: '',
+      56: '0x141383cdb8158982fb3469c3e49cc82f8026d968',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
 ]
 
 export default farms
