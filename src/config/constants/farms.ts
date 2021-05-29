@@ -42,13 +42,13 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0x141383cdb8158982fb3469c3e49cc82f8026d968',
     },
-    tokenSymbol: 'BNB',
+    tokenSymbol: 'CORX',
     tokenAddresses: {
       97: '',
       56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
     },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
+    quoteTokenSymbol: QuoteToken.CAKE,
+    quoteTokenAdresses: contracts.cake,
   },
   {
     pid: 3,
