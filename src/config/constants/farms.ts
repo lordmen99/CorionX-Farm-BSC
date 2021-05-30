@@ -37,7 +37,7 @@ const farms: FarmConfig[] = [
   {
     pid: 2,
     risk: 5,
-    lpSymbol: 'CORX ',
+    lpSymbol: 'CORX Staking',
     lpAddresses: {
       97: '',
       56: '0x141383cdb8158982fb3469c3e49cc82f8026d968',
