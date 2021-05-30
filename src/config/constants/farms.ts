@@ -19,17 +19,17 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 0,
+    pid: 3,
     risk: 5,
-    lpSymbol: 'BNB-BUSD LP',
+    lpSymbol: 'CORX-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x1b96b92314c44b159149f7e0303511fb2fc4774f',
+      56: '0x05a6071e03c012b8d20a9bbef1d711e465ac0d7f',
     },
-    tokenSymbol: 'BNB',
+    tokenSymbol: 'CORX',
     tokenAddresses: {
       97: '',
-      56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+      56: '0x141383cdb8158982fb3469c3e49cc82f8026d968',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -50,22 +50,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.CAKE,
     quoteTokenAdresses: contracts.cake,
   },
-  {
-    pid: 3,
-    risk: 5,
-    lpSymbol: 'CORX-BUSD LP',
-    lpAddresses: {
-      97: '',
-      56: '0x05a6071e03c012b8d20a9bbef1d711e465ac0d7f',
-    },
-    tokenSymbol: 'CORX',
-    tokenAddresses: {
-      97: '',
-      56: '0x141383cdb8158982fb3469c3e49cc82f8026d968',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
+  
 ]
 
 export default farms
