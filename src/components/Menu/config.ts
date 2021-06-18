@@ -26,6 +26,11 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
+    label: 'DeFi on ETH',
+    icon: 'PoolIcon',
+    href: 'https://corion.io',
+  },
+  {
      label: 'Bridge',
      icon: 'SunIcon',
      href: 'https://bscbridge.corion.io/',
