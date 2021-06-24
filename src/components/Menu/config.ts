@@ -57,10 +57,10 @@ const config: MenuEntry[] = [
   //   href: '/lottery',
   // },
   // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
+   label: 'Audit',
+   icon: 'NftIcon',
+   href: 'https://corion.io/wp-content/uploads/2020/06/CORX-Standart-Smart-Contract-Security-Audit.pdf',
+ },
   {
     label: 'Info',
     icon: 'MoreIcon',
