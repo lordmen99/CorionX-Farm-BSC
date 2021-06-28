@@ -56,7 +56,7 @@ const config: MenuEntry[] = [
   //   icon: 'TicketIcon',
   //   href: '/lottery',
   // },
-  // {
+ {
    label: 'Security Audit',
    icon: 'NftIcon',
    href: 'https://corion.io/wp-content/uploads/2020/06/CORX-Standart-Smart-Contract-Security-Audit.pdf',
