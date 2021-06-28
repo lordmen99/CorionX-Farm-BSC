@@ -28,7 +28,7 @@ const config: MenuEntry[] = [
   {
     label: 'DeFi on ETH',
     icon: 'PoolIcon',
-    href: 'https://corion.io',
+    href: 'https://farm.corion.io/',
   },
   {
      label: 'Bridge',
@@ -57,7 +57,7 @@ const config: MenuEntry[] = [
   //   href: '/lottery',
   // },
   // {
-   label: 'Audit',
+   label: 'Security Audit',
    icon: 'NftIcon',
    href: 'https://corion.io/wp-content/uploads/2020/06/CORX-Standart-Smart-Contract-Security-Audit.pdf',
  },
